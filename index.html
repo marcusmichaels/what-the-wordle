@@ -2491,7 +2491,7 @@
       const wordleDay = document.getElementById("wordle-day");
       const origin = new Date(2021, 5, 19, 0, 0, 0, 0);
       const today = new Date();
-      const offsetDays = 115;
+      const offsetDays = 116; // updated for NYTimes
       const wordleIndex = Math.floor(
         (today.setHours(0, 0, 0, 0) - origin.getTime()) / (1000 * 60 * 60 * 24)
       );
